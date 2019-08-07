@@ -1,0 +1,40 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+
+# Ignore Carthage/{Checkouts,Build}
+Carthage/Checkouts
+Carthage/Build
+
+### Xcode ###
+# Created by https://www.gitignore.io/api/xcode
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode8 and earlier (ignoring not required starting Xcode9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode3 and earlier (ignoring not required starting Xcode4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
